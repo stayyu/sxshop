@@ -1,0 +1,1 @@
+<view class="themItem"><navigator class="box" bindtap="{{g}}"><image src="{{a}}" alt="" class="pic"/><view class="xp" v-if="{{b}}">新品</view><view class="hot" v-if="{{c}}">热销中</view><view class="name">{{d}}</view><view class="name1">{{e}}</view><view class="p">优惠后 </view><view class="price">￥{{f}}</view></navigator></view>

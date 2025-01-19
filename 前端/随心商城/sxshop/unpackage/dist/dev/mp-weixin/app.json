@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/shopping_cart/shopping_cart",
+    "pages/personal/personal",
+    "pages/serach/serach",
+    "pages/serach-list/serach-list",
+    "pages/details/details",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "随心商城",
+    "navigationBarBackgroundColor": "#e0e0e0",
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#87d9ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/主页.png",
+        "selectedIconPath": "static/icon/zhuye_1.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "static/icon/fenlei.png",
+        "selectedIconPath": "static/icon/fenlei_1.png"
+      },
+      {
+        "pagePath": "pages/shopping_cart/shopping_cart",
+        "text": "购物车",
+        "iconPath": "static/icon/gouwuche.png",
+        "selectedIconPath": "static/icon/gouwuche_1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "static/icon/yonghuzhongxin.png",
+        "selectedIconPath": "static/icon/yonghuzhongxin_1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

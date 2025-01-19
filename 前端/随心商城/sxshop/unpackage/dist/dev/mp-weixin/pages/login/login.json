@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "cc-select-box": "../../components/cc-selectBox/cc-selectBox"
+  }
+}

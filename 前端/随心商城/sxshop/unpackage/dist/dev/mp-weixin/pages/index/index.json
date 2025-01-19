@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "随心商城",
+  "navigationBarBackgroundColor": "#000000",
+  "usingComponents": {
+    "custom-nav-bar": "../../components/custom-nav-bar/custom-nav-bar",
+    "good-item": "../../components/good-item/good-item"
+  }
+}

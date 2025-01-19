@@ -1,0 +1,1 @@
+<view class="logway data-v-2c87c304"><view wx:for="{{a}}" wx:for-item="item" wx:key="f" class="{{['data-v-2c87c304', item.e]}}"><view bindtap="{{item.b}}" class="item ptp_exposure data-v-2c87c304" data-index="{{item.c}}" data-num="{{item.d}}" data-ptpid="6f22-1fc6-9182-d53d">{{item.a}}</view><view class="dot data-v-2c87c304"></view></view></view>

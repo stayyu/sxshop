@@ -1,0 +1,1 @@
+<view class="themItem"><navigator url="" class="box"><image src="{{a}}" alt="" class="pic"/><view class="right"><view class="sl">销量：15</view><view class="name">火龙果</view><view class="p">优惠后 | 已优惠3元</view><view class="price">￥15</view></view></navigator></view>

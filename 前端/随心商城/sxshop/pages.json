@@ -1,0 +1,181 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "随心商城",
+				"navigationBarBackgroundColor": "#000000",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "left",
+								"text": "src"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/category/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shopping_cart/shopping_cart",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/personal/personal",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/serach/serach",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/serach-list/serach-list",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/details/details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "商品详情",
+				"navigationStyle": "default",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"buttons":[
+							{"type":"menu"},
+							{"type":"share"}
+						]
+					}
+					
+				}
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/my_set/my_set",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#FFF",
+				"navigationBarTitleText" : "设置",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/address-list/address-list",
+			"style" : 
+			{
+				"navigationBarBackgroundColor": "#daeaed",
+				"navigationBarTitleText" : "地址管理",
+				"navigationStyle": "default"
+			}
+		},
+		{
+			"path" : "pages/addpath/addpath",
+			"style" : 
+			{
+					"navigationBarBackgroundColor": "#daeaed",
+				"navigationBarTitleText" : "",
+				"navigationStyle": "default"
+				
+				
+					
+				
+				
+			}
+		},
+		{
+			"path" : "pages/user-fav/user-fav",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/message/message",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/order-detail/order-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/my-order/my-order",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+		
+	
+	],
+	"globalStyle": { //导航栏
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "随心商城",
+		"navigationBarBackgroundColor": "#e0e0e0",
+		"navigationStyle": "custom",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#87d9ff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/主页.png",
+				"selectedIconPath": "static/icon/zhuye_1.png"
+			},{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/icon/fenlei.png",
+				"selectedIconPath": "static/icon/fenlei_1.png"
+			},{
+				"pagePath": "pages/shopping_cart/shopping_cart",
+				"text": "购物车",
+				"iconPath": "static/icon/gouwuche.png",
+				"selectedIconPath": "static/icon/gouwuche_1.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "个人中心",
+				"iconPath": "static/icon/yonghuzhongxin.png",
+				"selectedIconPath": "static/icon/yonghuzhongxin_1.png"
+			}
+		]
+	}
+}
